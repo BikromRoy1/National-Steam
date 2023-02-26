@@ -21,6 +21,10 @@ h6 {
 .subTitle {
   font-family: 'Oswald', sans-serif;
 }
+section {
+  padding: 50px 0px;
+  overflow: hidden;
+}
 
 /*--------------------------------------------------------------
 # header section css
@@ -33,6 +37,25 @@ h6 {
   max-width: 100%;
   vertical-align: middle;
 }
+.section-title {
+  text-align: center;
+}
+.section-title h3 {
+  font-size: 2.2rem;
+  line-height: 1.3rem;
+  font-weight: 700;
+  margin: 0px 0 1rem;
+  text-transform: uppercase;
+  color: #121521;
+}
+.section-title p {
+  color: #585858;
+  font-size: 22px;
+  line-height: 2rem;
+  font-weight: 400;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
 
 /*--------------------------------------------------------------
 #  countdown days
@@ -43,7 +66,6 @@ h6 {
   width: 100%;
   background-size: cover;
   background-position: center center;
-  padding: 50px 0px;
 }
 .count-down-heading {
   text-align: center;
@@ -177,4 +199,84 @@ h6 {
   100% {
     top: 0;
   }
+}
+
+/*--------------------------------------------------------------
+#  price section
+--------------------------------------------------------------*/
+.price-section {
+  background: url(img/schedule-2-bg.png);
+  background-position: center center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: var(--bs-nav-pills-link-active-bg);
+  background-color: #e7015e;
+}
+.nav-pills .nav-link {
+  background: 0 0;
+  border: 0;
+  border-radius: var(--bs-nav-pills-border-radius);
+  color: #ec398b;
+}
+/* .price-tab-conent {
+  background: rgba(85, 75, 185, 0.8);
+  padding: 10px;
+  color: white;
+} */
+.single-price-items {
+  box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.08);
+  padding: 40px 45px 40px 40px;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  z-index: 2;
+  border-radius: 5px;
+  /* margin-bottom: 30px; */
+}
+.single-price-items i {
+  position: absolute;
+  right: -10px;
+  top: 20px;
+  font-size: 55px;
+  color: #bababa;
+}
+.single-price-items img {
+  position: absolute;
+  right: -10px;
+  top: 20px;
+  font-size: 55px;
+  color: #bababa;
+}
+.single-price-items h3 {
+  font-size: 24px;
+  margin-bottom: 13px;
+  font-weight: 700;
+  color: rgb(28, 28, 36);
+}
+.single-price-items p {
+  margin-bottom: 0px;
+  line-height: 26px;
+  font-size: 16px;
+  color: #888888;
+  /* color: #585858; */
+}
+.single-price-items .price-number {
+  position: absolute;
+  right: -55px;
+  bottom: -55px;
+  width: 120px;
+  height: 120px;
+  background: #e7015e;
+  color: #fff;
+  border-radius: 50%;
+  display: block;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 25px 30px;
 }
