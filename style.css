@@ -325,3 +325,59 @@ section {
   background-image: linear-gradient(102.55deg, #e9c107 20.86%, #f7971e 92.2%);
   border-radius: 0px 4px 4px 0px;
 }
+/*--------------------------------------------------------------
+#  Level section
+--------------------------------------------------------------*/
+.level-slot-class {
+  background: #d20055;
+  color: #fff;
+  padding: 57px 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+.level-slot-class2 {
+  background: #e7015e;
+  color: #fff;
+  padding: 57px 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+.level-slot-class2 span {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+}
+.level-slot-class span {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+}
+.level-slot-info {
+  padding: 35px 34px 54px 170px;
+  /* background-color: red; */
+  border: 1px dashed #e5e5e5;
+  border-left: none;
+  width: 100%;
+  position: relative;
+}
+.level-slot-info-content h3 {
+  font-size: 19px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #1c1c24;
+  line-height: 1.2;
+}
+.level-slot-info-content p {
+  margin-bottom: 0;
+  color: rgb(136, 136, 136);
+}
+.level-slot-student {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  width: 120px;
+  border-radius: 50%;
+  height: 120px;
+  bottom: 0;
+  margin: auto;
+}
