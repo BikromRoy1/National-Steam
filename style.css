@@ -211,9 +211,16 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.prize-btn {
+  background-color: #ec398b;
+  color: white;
+}
+.quiz-btn{
+  background-color: #b91d73;
+  color: white;
+}
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  background-color: #ec398b;
 }
 .nav-pills .nav-link {
   background: 0 0;
