@@ -388,6 +388,12 @@ section {
   bottom: 0;
   margin: auto;
 }
+/*--------------------------------------------------------------
+#  SEGMENTS section
+--------------------------------------------------------------*/
+.segment {
+  background-color: #f0f8ff;
+}
 
 /*--------------------------------------------------------------
 #  ROADMAP section
@@ -435,7 +441,7 @@ section {
   color: #bababa;
   transition: all 0.3s ease-in-out;
 }
-.Roadmap-items:hover .roadmap-icons{
+.Roadmap-items:hover .roadmap-icons {
   color: white;
 }
 .Roadmap-items h3 {
@@ -454,7 +460,7 @@ section {
   color: #888888;
   /* color: #585858; */
 }
-.Roadmap-items:hover .roadmap-content{
+.Roadmap-items:hover .roadmap-content {
   color: white;
 }
 .Roadmap-items .Roadmap-number {
