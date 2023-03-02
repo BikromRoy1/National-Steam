@@ -394,12 +394,55 @@ section {
 .segment {
   background-color: #f0f8ff;
 }
+.segment .segment-card {
+  padding: 20px;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 20px 0;
+  box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+.segment .segment-card .icon img {
+  width: 39%;
+  height: 92px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.segment .segment-card h4 {
+  color: #01362f;
+  font-size: 20px;
+  padding: 0 9px;
+  font-weight: 700;
+}
+.segment .segment-card h4 a {
+  color: #01362f;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.segment .segment-card p {
+  color: #585858;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  margin-bottom: 0;
+}
+.segment-card:hover {
+  border-color: #01362f;
+}
+.segment-card:hover .icon img  {
+  transform: scale(-1) rotate(-180deg);
+  transition: all 600ms ease;
+}
 
 /*--------------------------------------------------------------
 #  ROADMAP section
 --------------------------------------------------------------*/
 .roadmap {
-  padding-top: 20px;
 }
 .Roadmap-items {
   box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.08);
@@ -448,7 +491,7 @@ section {
   font-size: 24px;
   margin-bottom: 13px;
   font-weight: 700;
-  color: rgb(28, 28, 36);
+  color: #01362f;
 }
 .Roadmap-items:hover .roadmap-title {
   color: white;
