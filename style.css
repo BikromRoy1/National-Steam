@@ -434,7 +434,7 @@ section {
 .segment-card:hover {
   border-color: #01362f;
 }
-.segment-card:hover .icon img  {
+.segment-card:hover .icon img {
   transform: scale(-1) rotate(-180deg);
   transition: all 600ms ease;
 }
@@ -442,8 +442,6 @@ section {
 /*--------------------------------------------------------------
 #  ROADMAP section
 --------------------------------------------------------------*/
-.roadmap {
-}
 .Roadmap-items {
   box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.08);
   padding: 30px 45px 30px 30px;
@@ -520,4 +518,72 @@ section {
   font-weight: 700;
   padding: 25px 30px;
   /* transition: all 0.3s ease-in-out; */
+}
+
+/*--------------------------------------------------------------
+# start architecture design
+--------------------------------------------------------------*/
+.architecture-section {
+  background-color: #f0f8ff;
+}
+.architecture-container {
+  position: relative;
+}
+
+.architecture-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.architecture-text img {
+  width: 50px;
+  height: 50px;
+  padding-bottom: 4px;
+}
+.architecture-text h4 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #01362f;
+}
+.architecture-text p {
+  font-weight: 400;
+  line-height: 18px;
+  color: black;
+  padding-top: 3px;
+  font-size: 14px;
+}
+.architecture-text-second {
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translate(-37%, -50%);
+}
+.architecture-text-second img {
+  width: 50px;
+  height: 55px;
+  padding-bottom: 4px;
+}
+.architecture-text-second p {
+  font-weight: 700;
+  line-height: 19px;
+  color: black;
+  padding-top: 3px;
+  font-size: 14px;
+}
+.architecture-text-three {
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translate(-37%, -50%);
+}
+.architecture-text-three p {
+  font-weight: 700;
+  line-height: 21px;
+  color: black;
+  padding-top: 3px;
+  font-size: 14px;
+}
+.architecture-text-three p span {
+  font-size: 26px;
 }
