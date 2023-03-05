@@ -632,3 +632,52 @@ section {
   justify-content: center;
   align-items: center;
 }
+/*!--------------------------------------------------------------
+# MESSAGE FROM CHIEF
+--------------------------------------------------------------*/
+.advisory {
+  background-color: #f0f8ff;
+}
+.advisory-card {
+  padding: 20px;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  /* margin: 0 0 20px 0; */
+  box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+.advisory-icons {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.advisory-card h4 {
+  margin-top: 10px;
+  margin-bottom: 3px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.advisory-card h4 a {
+  margin-bottom: 3px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #121521;
+}
+.advisory-card p {
+  display: block;
+  color: #01362f;
+  font-size: 14.5px;
+  margin-top: 5px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.advisory-card h6 {
+  font-weight: bolder;
+  font-size: 15px;
+}
