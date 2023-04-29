@@ -64,7 +64,7 @@ section {
 #count-down {
   background-image: url(img/call-bg.jpg);
   width: 100%;
-   background-size: cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 60px 0;
@@ -83,12 +83,12 @@ section {
   height: 100%;
   opacity: 0.4;
   background: #101130;
-  content: "";
+  content: '';
   transition: all 0.4s ease;
   z-index: -1;
 }
 .count-down.overlay::before {
-  background: linear-gradient(45deg, #FF5722, #009688);
+  background: linear-gradient(45deg, #ff5722, #009688);
   opacity: 0.9;
 }
 .count-down-heading {
@@ -361,11 +361,105 @@ section {
   background-image: linear-gradient(102.55deg, #e9c107 20.86%, #f7971e 92.2%);
   border-radius: 0px 4px 4px 0px;
 }
+
+/*--------------------------------------------------------------
+#  Registration Number count section
+--------------------------------------------------------------*/
+#Registration-count {
+  position: relative;
+  padding: 100px 0px;
+  background-color: #4caf50;
+  overflow: hidden;
+}
+#Registration-count::before {
+  position: absolute;
+  right: -100%;
+  bottom: 3%;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 100%;
+  width: 200%;
+  content: '';
+  transform: rotate(8deg);
+}
+.Registration-count .counter-column {
+  position: relative;
+  margin-bottom: 20px;
+}
+.Registration-count .counter-column .inner-box {
+  position: relative;
+  padding-left: 130px;
+  padding-top: 30px;
+  min-height: 110px;
+}
+.Registration-count .counter-column .count-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 110px;
+}
+.Registration-count .counter-column .count-icons::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: '';
+  transition: all 300ms ease;
+}
+.Registration-count .counter-column .inner-box:hover .count-icons::before {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.Registration-count .counter-column .count-icons.count-icons-bg-1:before {
+  background-image: url(img/shape/fun-fact-one.png);
+}
+.Registration-count .counter-column .count-icons.count-icons-bg-2:before {
+  background-image: url(img/shape/fun-fact-two.png);
+}
+
+.Registration-count .counter-column .count-icons.count-icons-bg-3:before {
+  background-image: url(img/shape/fun-fact-three.png);
+}
+
+.Registration-count .counter-column .count-icons.count-icons-bg-4:before {
+  background-image: url(img/shape/fun-fact-four.png);
+}
+
+.Registration-count .counter-column .inner-box .counter-title {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 10px;
+  transition: all 300ms ease;
+}
+.Registration-count .counter-column .count-box .count-text {
+  position: relative;
+  display: block;
+  font-size: 48px;
+  line-height: 1.2em;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Exo', sans-serif;
+  transition: all 300ms ease;
+}
+
 /*--------------------------------------------------------------
 #  Level section
 --------------------------------------------------------------*/
 .level-section {
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 .level-slot-class {
   background: #43c370;
@@ -695,7 +789,6 @@ section {
 .advisory-card:hover {
   transform: translateY(-10px);
   border-bottom-color: #43c370;
-
 }
 .advisory-icons {
   width: 150px;
@@ -735,27 +828,27 @@ section {
 --------------------------------------------------------------*/
 .proud-partners {
   /* background-color: rgb(255, 255, 255); */
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .proud-partners-images {
-    background-color: #ffffff;
-    border-style: solid;
-    border-width: 0px 0px 0px 0px;
-    border-color: #edeff2;
-    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
-    margin: 1px 1px 1px 1px;
-    padding: 10px;
-    height: 122px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: #edeff2;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  margin: 1px 1px 1px 1px;
+  padding: 10px;
+  height: 122px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .proud-partners-images img {
   width: 165px;
   /* opacity: 0.8; */
 }
-.dell-loog{
+.dell-loog {
   width: 120px !important;
 }
 
