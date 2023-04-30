@@ -5,7 +5,7 @@
  * License: https://bootstrapmade.com/license/
  */
 (function () {
-  'use strict';
+  ('use strict');
 
   /**
    * Easy selector helper function
@@ -45,4 +45,9 @@
   };
   countDownDate();
   setInterval(countDownDate, 1000);
+
+  /**
+   * Initiate Pure Counter
+   */
+  new PureCounter();
 })();
