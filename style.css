@@ -59,6 +59,63 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+  padding: 80px 0 80px 0;
+  min-height: 30vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.breadcrumbs:before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.308);
+  position: absolute;
+  inset: 0;
+}
+
+.breadcrumbs h2 {
+  font-size: 56px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 0 10px 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #e91e63;
+}
+
+.breadcrumbs ol a {
+  color: rgba(255, 255, 255, 0.8);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.breadcrumbs ol a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs ol li + li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #fff;
+  content: '/';
+}
+
+/*--------------------------------------------------------------
 #  countdown days
 --------------------------------------------------------------*/
 #count-down {
@@ -823,6 +880,26 @@ section {
   color: #607d8b;
   padding-top: 4px;
 }
+.speakers-button {
+  margin-top: 20px;
+}
+.speakers-button-link {
+  background-color: #43c370;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 22px;
+  font-size: 17px;
+  border-radius: 6px;
+  transition: 0.3s all;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.speakers-button-link:hover {
+  background-color: #1ca766;
+}
+
 /*!--------------------------------------------------------------
 # OUR PROUD PARTNERS
 --------------------------------------------------------------*/
@@ -873,4 +950,89 @@ section {
 .copy-right-section {
   background: #1bb57b;
   padding: 10px 0px;
+}
+
+/* *
+* ADVISORY BOARD page css
+* ADVISORY BOARD Modal css
+*/
+
+/*!--------------------------------------------------------------
+# ADVISORY BOARD Modal
+--------------------------------------------------------------*/
+.member .pic {
+  overflow: hidden;
+  width: 180px;
+  border-radius: 50%;
+}
+.member .pic img {
+  transition: ease-in-out 0.3s;
+}
+.member:hover img {
+  transform: scale(1.1);
+}
+.member .member-info {
+  padding-left: 30px;
+}
+.member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+  color: #607d8b;
+}
+
+.member span::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #1ca766;
+  bottom: 0;
+  left: 0;
+}
+
+.member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+.member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 33px;
+  height: 33px;
+  background: #49b985;
+  text-decoration: none;
+}
+
+.member .social a i {
+  color: #fff;
+  font-size: 17px;
+  margin: 0 2px;
+}
+
+.member .social a:hover {
+  background: #1ca766;
+}
+
+.member .social a+a {
+  margin-left: 8px;
 }
