@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
   color: #444444;
 }
 h1,
@@ -16,10 +16,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+   font-family: 'Noto Sans Bengali', sans-serif;
 }
 .subTitle {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 section {
   padding: 60px 0px;
@@ -51,11 +51,10 @@ section {
 }
 .section-title p {
   color: #585858;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 2rem;
   font-weight: 400;
   margin: 0;
-  font-family: 'Oswald', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -161,11 +160,12 @@ section {
 }
 .count-down-heading h3 {
   color: white;
-  font-size: 2rem;
+  font-size: 26px;
   line-height: 2rem;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
 }
 .countdownitems {
   margin-top: 30px;
@@ -201,7 +201,8 @@ section {
   color: #00baff;
 }
 .countdownitems li span {
-  font-size: 30px;
+  font-size: 35px;
+  font-weight: 700;
   margin-top: 20px;
   display: inline-block;
 }
@@ -295,6 +296,7 @@ section {
 .prize-btn {
   background-color: #43c370;
   color: white;
+  font-size: 17px;
 }
 .prize-btn:hover {
   border: 1px solid #43c370;
@@ -303,6 +305,7 @@ section {
 .quiz-btn {
   background-color: #1ca766;
   color: white;
+  font-size: 17px;
 }
 .quiz-btn:hover {
   border: 1px solid #1ca766;
@@ -391,7 +394,7 @@ section {
 .single-price-item p {
   margin-bottom: 0px;
   line-height: 26px;
-  font-size: 16px;
+  font-size: 17px;
   /* color: #888888; */
   color: white;
   /* color: #585858; */
@@ -521,20 +524,20 @@ section {
 .level-slot-class {
   background: #43c370;
   color: #fff;
-  padding: 74px 10px;
+  padding: 60px 10px;
   margin: 0 auto;
   text-align: center;
 }
 .level-slot-class2 {
   background: #1ca766;
   color: #fff;
-  padding: 74px 10px;
+  padding: 56px 10px;
   margin: 0 auto;
   text-align: center;
 }
 .level-slot-class2 span {
   text-align: center;
-  font-size: 21px;
+  font-size: 24px;
   font-weight: 700;
 }
 .level-slot-class span {
@@ -543,7 +546,7 @@ section {
   font-weight: 700;
 }
 .level-slot-info {
-  padding: 50px 34px 62px 170px;
+  padding: 47px 34px 62px 170px;
   /* background-color: red; */
   border: 1px dashed #e5e5e5;
   border-left: none;
@@ -560,6 +563,7 @@ section {
 .level-slot-info-content p {
   margin-bottom: 0;
   color: rgb(136, 136, 136);
+  font-size: 16px;
 }
 .level-slot-student {
   position: absolute;
@@ -601,12 +605,14 @@ section {
   font-size: 20px;
   padding: 0 9px;
   font-weight: 700;
+  margin-top: 10px;
 }
 .segment .segment-card h4 a {
   color: #01362f;
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
+  padding-top: 10px;
 }
 .segment .segment-card p {
   color: #585858;
